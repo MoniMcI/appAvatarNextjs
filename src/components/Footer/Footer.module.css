@@ -1,0 +1,29 @@
+.appFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:20px;
+  width: 100%; 
+  position:fixed;
+  bottom: 0;
+  margin-top: 30px auto;
+  margin-bottom:10px;
+  gap: 10px; 
+}
+
+.refreshAllButton,
+.backButton {
+    
+  padding: 10px 80px;
+  font-size: 16px;
+  background-color: #02CC67;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.refreshAllButton:hover,
+.backButton:hover {
+  background-color: #03da6e;
+}

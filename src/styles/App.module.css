@@ -1,0 +1,21 @@
+.App{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.avatarGridContainer {
+  display: flex;
+  width: 100%;
+  max-width: 1300px;
+  margin:30px 16px;
+}
+.avatarGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
